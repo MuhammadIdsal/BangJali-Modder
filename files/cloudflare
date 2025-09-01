@@ -13,9 +13,9 @@ echo -e "${BIWhite}┌───────────────────�
 echo -e "${LIME}          Setup Subdomain Menu        ${NC}"
 echo -e "${BIWhite}└──────────────────────────────────────┘${NC}"
 
-DOMAIN=ghxnear.my.id
-CF_KEY=9323f6c1be2ee607f9f22c9d6781c947dcadf
-CF_ID=ghalihputra8@gmail.com
+DOMAIN=bangjali-modder.web.id
+CF_KEY=81d819c26bf750a6990ee88034c1f473b1a96
+CF_ID=mf05386@gmail.com
 set -euo pipefail
 
 ZONE=$(curl -sLX GET "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}&status=active" \
