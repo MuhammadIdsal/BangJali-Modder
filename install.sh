@@ -869,7 +869,7 @@ function memasang_menu(){
     print_install "Memasang Menu"
     wget -q ${REPO}speedtest.sh && chmod +x speedtest.sh
     wget -q ${REPO}menu/menu.zip
-    unzip -P JaliJall menu.zip
+    unzip -P menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
     sleep 2
