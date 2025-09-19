@@ -613,9 +613,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user xiaolitekyt@gmail.com
-from xiaolitekyt@gmail.com
-password cwmbmtnushnfrlup
+user bastianpratama935@gmail.com
+from bastianpratama935@gmail.com
+password tebaksaja
 logfile ~/.msmtp.log
 EOF
   chown -R www-data:www-data /etc/msmtprc
@@ -869,7 +869,7 @@ function memasang_menu(){
     print_install "Memasang Menu"
     wget -q ${REPO}speedtest.sh && chmod +x speedtest.sh
     wget -q ${REPO}menu/menu.zip
-    unzip -P menu.zip
+    unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
     sleep 2
